@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> محاسبه BMI</title>
+    <link rel="stylesheet" href="./Css/index.css" />
+    <link rel="icon" href="./Assets/Images/logo.svg" type="image/svg">
+  </head>
+  <body>
+    <header id="Header">
+      <div class="container">
+        <section class="header__wrapper">
+          <div class="header__logo">
+            <img src="./Assets/Images/logo.svg" alt="logo" class="logo" />
+            <p>  محاسبه ‌‌‌BMI</p>
+          </div>
+          <p id="TaskAlert"></p>
+        </section>
+      </div>
+    </header>
+<main id="StartBox">
+  <div class="container">
+    <section class="Wrapper">
+      <div class="w-full flex justify-center items-center gap-25 mb-20">
+        <p class="HeightLabel">قد شما</p>
+        <input type="range" min="20" max="250" value="30" class="HeightRange"/>
+         <p class="HeightValue"> </p>
+      </div>
+      <div class="w-full flex justify-center items-center gap-25 mb-20">
+        <p class="WeightLabel">وزن شما</p>
+        <input type="range" min="20" max="200" value="100" class="WeightRange"/>
+         <p class="WeightValue"></p>
+      </div>
+      <div class="ResultBody">
+     
+      </div>
+    </section>
+  </div>
+</main>
+  <button class="ScrollUp">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+    </svg>    
+  </button>
+    <script src="./JS/Main.js"></script>
+  </body>
+</html>
