@@ -15,18 +15,18 @@ function CalculateBMI() {
     case BMIResult < 18.5:
       console.log(BMIResult);
       ResultBody.style.color = "#f43f5e";
-      ResultBody.innerHTML = `با BMI ${BMIResult} بیش از حد نرمال لاغر هستید.`;
+      ResultBody.innerHTML = `با مقدار ${BMIResult} بیش از حد نرمال لاغر هستید.`;
       break;
     case BMIResult >= 18.5 && BMIResult <= 25:
-      ResultBody.innerHTML = `با BMI ${BMIResult} نتیجه نرمال است.`;
+      ResultBody.innerHTML = `با مقدار ${BMIResult} نتیجه نرمال است.`;
       ResultBody.style.color = "#10b981";
       break;
     case BMIResult > 25 && BMIResult <= 30:
-      ResultBody.innerHTML = `با BMI ${BMIResult}  دچار اضافه وزن هستید.`;
+      ResultBody.innerHTML = `با مقدار ${BMIResult}  دچار اضافه وزن هستید.`;
       ResultBody.style.color = "#f59e0b";
       break;
     case BMIResult > 30:
-      ResultBody.innerHTML = `با BMI ${BMIResult}  بیش از اندازه اضافه وزن دارید.`;
+      ResultBody.innerHTML = `با مقدار ${BMIResult}  بیش از اندازه اضافه وزن دارید.`;
       ResultBody.style.color = "#dc2626";
       break;
     default:
